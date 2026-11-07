@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jewelry - Luxury Jewelry Collection</title>
+  <meta name="description" content="Every piece of jewelry tells a story. Discover our luxury collection crafted with elegance and timeless distinction.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header / Navigation Bar -->
+  <header class="site-header">
+    <div class="nav-container">
+      <!-- Logo -->
+      <a href="#" class="brand-logo" id="brandLogo">
+        Jewelry<span class="logo-dot">.</span>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#shop" class="nav-link">Shop</a></li>
+          <li class="nav-item"><a href="#products" class="nav-link">Products</a></li>
+          <li class="nav-item"><a href="#pages" class="nav-link">Pages</a></li>
+          <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+          <li class="nav-item"><a href="#elements" class="nav-link">Elements</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Icons -->
+      <div class="nav-actions">
+        <button class="icon-btn" aria-label="Search" id="searchBtn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="7.5"></circle>
+            <line x1="16.5" y1="16.5" x2="21.5" y2="21.5"></line>
+          </svg>
+        </button>
+        <button class="icon-btn" aria-label="Account" id="accountBtn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 21v-1.5a4.5 4.5 0 0 0-4.5-4.5h-7a4.5 4.5 0 0 0-4.5 4.5V21"></path>
+            <circle cx="12" cy="7.5" r="4"></circle>
+          </svg>
+        </button>
+        <button class="icon-btn" aria-label="Wishlist" id="wishlistBtn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+          </svg>
+        </button>
+        <button class="icon-btn" aria-label="Shopping Cart" id="cartBtn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mobile Menu Toggle Button -->
+      <button class="mobile-menu-toggle" id="mobileMenuBtn" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="hero-section" id="home">
+      <!-- Background & Model Container -->
+      <div class="hero-background-wrapper">
+        <img 
+          src="assets/image.png" 
+          alt="Fashion model wearing luxury gold chain necklaces, earrings and tan leather jacket" 
+          class="hero-model-img"
+        />
+        <div class="hero-gradient-overlay"></div>
+      </div>
+
+      <!-- Hero Content -->
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            <span class="hero-title-sub">Every piece of</span>
+            <span class="hero-title-main">Jewelry tells a story</span>
+          </h1>
+
+          <p class="hero-quote">
+            “A gentleman knows his appearance is very important that show his characteristic.” <span class="quote-author">– Unknown</span>
+          </p>
+
+          <div class="hero-actions">
+            <a href="#shop" class="btn btn-primary" id="shopNowBtn">Shop Now</a>
+            <a href="#new-items" class="btn btn-outline" id="newItemsBtn">New Items</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
